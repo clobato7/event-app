@@ -36,6 +36,7 @@
 import CreateCategory from './components/CreateCategory';
 import CreateEvent from './components/CreateEvent';
 import EventList from './components/EventList';
+import './App.css';
 
 export default function App() {
   return (
