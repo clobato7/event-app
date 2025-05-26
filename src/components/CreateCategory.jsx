@@ -10,6 +10,7 @@ export default function CreateCategory() {
     await supabase.from('categories').insert([{ name }]);
     alert('Categoria criada!');
     setName('');
+    window.location.reload(); // adicionei para fazer o reload da pagina ao inserir registro, acho que tem forma melhor de fazer isso dando refresh apenas nos dados/lista
   };
 
   return (

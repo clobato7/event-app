@@ -24,6 +24,7 @@ export default function CreateEvent() {
     setDescription('');
     setDate('');
     setCategoryId('');
+    window.location.reload(); // adicionei para fazer o reload da pagina ao inserir registro, acho que tem forma melhor de fazer isso dando refresh apenas nos dados/lista
   };
 
   return (
